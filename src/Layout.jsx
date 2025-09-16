@@ -7,6 +7,7 @@ import {
     MessageCircle, 
     User, 
     LogOut,
+    Brain,
     Settings,
     Loader2
 } from "lucide-react";
@@ -155,7 +156,6 @@ export default function Layout({ children, currentPageName }) {
                 </div>
                 <div>
                   <h2 className="font-bold text-lg text-gray-900">Product Playground</h2>
-                  <p className="text-xs text-gray-500">AI Interview Coach</p>
                 </div>
               </div>
             </SidebarHeader>
@@ -246,7 +246,7 @@ export default function Layout({ children, currentPageName }) {
                   <SidebarTrigger className="hover:bg-gray-100 p-2 rounded-lg transition-colors duration-200" />
                   <div className="flex items-center gap-2">
                     <Brain className="w-6 h-6 text-indigo-600" />
-                    <h1 className="text-lg font-semibold">PM Practice</h1>
+                    <h1 className="text-lg font-semibold">Product Playground</h1>
                   </div>
                 </div>
                 <Link to={createPageUrl("Profile")}>
